@@ -1,2 +1,2 @@
 [dev]
-target ansible_ssh_host=34.201.26.235
+34.201.26.235 ansible_user=ec2-user
