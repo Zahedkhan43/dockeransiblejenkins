@@ -1,6 +1,6 @@
 ---
 - hosts: localhost
-  remote_user: root
+  remote_user: ec2-user
   become: True
   tasks:
     - name: Install python pip
