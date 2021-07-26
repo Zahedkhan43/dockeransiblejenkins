@@ -4,3 +4,6 @@
 
 [dev]
 3.231.105.80 ansible_user=ec2-user 
+ 
+[all]
+target ansible_ssh_host=3.231.105.80
