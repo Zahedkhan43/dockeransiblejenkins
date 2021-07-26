@@ -7,7 +7,6 @@
   become_exe: "sudo su -"
   
   tasks:
-    
     - name: Install docker
       yum:
         name: docker
