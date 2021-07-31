@@ -1,7 +1,6 @@
 ---
 - hosts: localhost
   become: True
-  become_method: su 
   become_flags: "-"
   become_user: root
   become_exe: "sudo su -"
