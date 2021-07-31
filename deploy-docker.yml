@@ -1,9 +1,7 @@
 ---
 - hosts: localhost
   become: True
-  become_user: root
-  become_exe: "sudo su -"
-  
+ 
   tasks:
     - name: Install docker
       yum:
