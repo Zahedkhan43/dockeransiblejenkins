@@ -1,6 +1,6 @@
 
 [localhost]
-3.238.218.33 ansible_user=ec2-user
+54.161.193.193 ansible_user=ec2-user
 
 [dev]
 3.231.105.80 ansible_user=ec2-user 
